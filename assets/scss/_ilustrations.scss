@@ -1,0 +1,31 @@
+.page-bottom {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  left: 0;
+  top: 0;
+}
+.page-bottom-inner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -280px;
+}
+.planet {
+  img {
+    width: 100%;
+  }
+}
+.rocket {
+  position: absolute;
+  left: 50%;
+  margin-left: -825px;
+  top: -250px;
+}
+.astro {
+  position: absolute;
+  left: 50%;
+  margin-left: 450px;
+  top: -160px;
+}

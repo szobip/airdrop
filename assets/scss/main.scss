@@ -1,13 +1,8 @@
+@import './utils/variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-@import './utils/variables';
 @import './header';
-@import './hero';
-@import './services';
-@import './dropdown';
-@import './howwork';
-@import './boxes';
-@import './footer';
+@import './ilustrations';
 
 * {
   font-size: 16px;
@@ -15,11 +10,16 @@
 }
 body {
   color: #f9f9f9;
+  min-height: 100vh;
 }
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
-
+.page {
+  min-height: 100vh;
+  display: flex;
+}
 .nuxt-link-active {
   color: $red;
 }
@@ -32,7 +32,67 @@ html {
 }
 
 .landing-page {
-  background: #181b1f;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+}
+.content {
+  z-index: 10;
+}
+.main-header {
+  font-weight: 700;
+  font-size: 3.4375rem;
+  line-height: 1.2;
+}
+.main-sub-header {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #f9f9f9;
+  margin-bottom: 2rem;
+}
+
+.box {
+  border: 1px solid #2c3138;
+  border-radius: 10px;
+  padding: 2.5rem;
+  background-color: #171a1f;
+  h3,
+  a {
+    font-weight: bolder;
+    color: $red;
+    font-size: 1.2rem;
+  }
+  h3 {
+    margin: 0 auto;
+    line-height: 28px;
+  }
+}
+.privacy {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #181b1f;
+  opacity: 0.75;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: 0.4s ease-in;
+
+  padding-right: 0;
+  &:hover {
+    opacity: 1;
+    transition: 0.4s ease-out;
+    color: $dark;
+  }
+}
+.copyright {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $dark;
+  opacity: 0.5;
+  transition: 0.4s ease-in;
+  padding: 0.5rem;
+}
+.border-cta {
+  border-top: 1px solid rgba(24, 27, 31, 0.5);
+}
+footer {
+  z-index: 10;
 }

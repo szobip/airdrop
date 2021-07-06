@@ -9,10 +9,10 @@
         :to="switchLocalePath(locale.code)"
       >
         <template v-if="locale.code === 'en'">
-          <img src="flags/en.svg" alt="" />
+          <img src="flags/en.svg" alt="en" :title="locale.name" />
         </template>
         <template v-else>
-          <img src="flags/ko.svg" alt="" />
+          <img src="flags/ko.svg" alt="ko" :title="locale.name" />
         </template>
       </nuxt-link>
     </li>
