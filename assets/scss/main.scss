@@ -1,0 +1,38 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import './utils/variables';
+@import './header';
+@import './hero';
+@import './services';
+@import './dropdown';
+@import './howwork';
+@import './boxes';
+@import './footer';
+
+* {
+  font-size: 16px;
+  font-family: 'Rajdhani', sans-serif;
+}
+body {
+  color: #f9f9f9;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nuxt-link-active {
+  color: $red;
+}
+.btn {
+  border-radius: 1px;
+  text-transform: capitalize;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.landing-page {
+  background: #181b1f;
+  width: 100vw;
+  height: 100vh;
+}

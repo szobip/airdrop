@@ -1,0 +1,21 @@
+.dropdown {
+  cursor: pointer;
+  &:hover {
+    span {
+      color: $red;
+    }
+  }
+}
+.dropdown-menu {
+  left: -25%;
+  @include media-breakpoint-up(md) {
+    left: -100%;
+  }
+}
+.dropdown-item {
+  color: $dark;
+  &:hover {
+    color: $red;
+    background: #fff;
+  }
+}

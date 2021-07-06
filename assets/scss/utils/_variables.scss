@@ -1,0 +1,68 @@
+$white: #fff;
+$gray: #737373;
+$secondary: #737373;
+$dark: #181a1e;
+$light: #f9f9f9;
+$green: #2ad46f;
+$green-hover: #20c763;
+$light-gray: #c1c1c1;
+$darker: #171a1f;
+$modal-bg: rgba(23, 26, 31, 0.75);
+$red: #e73740;
+$black: #000;
+$primary: $white;
+$danger: $red;
+$theme-colors: (
+  green: $green,
+  white: $white,
+  red: $red,
+  dark: $dark,
+  gray: $gray,
+  light: $light,
+  lightGray: $light-gray,
+  primary: $dark,
+);
+$font-weight: (
+  light: 200,
+  normal: 300,
+  medium: 500,
+  semiBold: 600,
+  bold: 700,
+  black: 900,
+);
+
+
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px,
+        xxxl: 1600px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1380px,
+  //        xxxl: 1560px
+);
+
+// Body
+$body-bg: #181b1f;
+$body-color: #F9F9F9;
+$font-family-sans-serif: 'Rajdhani', sans-serif;
+
+$grid-gutter-width: 20px;
+
+$primary: #2AD46F;
+
+$input-btn-font-size: rem(18px);
+$btn-font-weight: 600;
+$btn-border-radius: rem(5px);
+$btn-active-box-shadow: none !important;
+$btn-focus-box-shadow: none !important;
