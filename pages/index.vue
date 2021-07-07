@@ -47,7 +47,7 @@
                   border-cta
                 "
               >
-                <div class="copyright">{{ $t('copyright') }}</div>
+                <div class="copyright">© {{ $t('copyright') }}</div>
                 <a
                   href="https://account.gamerhash.io/en/p/privacy-policy"
                   class="privacy d-block"
