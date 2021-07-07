@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <nav class="navbar">
-        <a href="/" class="logo"><GHXLogo /> </a>
+        <a href="./" class="logo"><GHXLogo /> </a>
         <div class="col-auto ml-auto pl-0">
           <div class="d-flex align-items-center">
             <a

@@ -86,7 +86,52 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('seo.description'),
+          content: this.$t('seo.title'),
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$t('seo.title'),
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.$t('seo.desc'),
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: '/',
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.$t('seo.title'),
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.$t('seo.title'),
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$t('seo.desc'),
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '/',
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: '/',
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: this.$t('seo.title'),
         },
         ...i18nHead.meta,
       ],
